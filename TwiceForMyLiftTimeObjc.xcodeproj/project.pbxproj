@@ -1,0 +1,521 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		E64DA00D1BE569BB002E8F05 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = E64DA00C1BE569BB002E8F05 /* main.m */; };
+		E64DA0101BE569BB002E8F05 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = E64DA00F1BE569BB002E8F05 /* AppDelegate.m */; };
+		E64DA0131BE569BB002E8F05 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E64DA0121BE569BB002E8F05 /* ViewController.m */; };
+		E64DA0161BE569BB002E8F05 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E64DA0141BE569BB002E8F05 /* Main.storyboard */; };
+		E64DA0181BE569BB002E8F05 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E64DA0171BE569BB002E8F05 /* Assets.xcassets */; };
+		E64DA01B1BE569BB002E8F05 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E64DA0191BE569BB002E8F05 /* LaunchScreen.storyboard */; };
+		E64DA0261BE569BB002E8F05 /* TwiceForMyLiftTimeObjcTests.m in Sources */ = {isa = PBXBuildFile; fileRef = E64DA0251BE569BB002E8F05 /* TwiceForMyLiftTimeObjcTests.m */; };
+		E64DA0311BE569BB002E8F05 /* TwiceForMyLiftTimeObjcUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = E64DA0301BE569BB002E8F05 /* TwiceForMyLiftTimeObjcUITests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		E64DA0221BE569BB002E8F05 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = E64DA0001BE569BB002E8F05 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = E64DA0071BE569BB002E8F05;
+			remoteInfo = TwiceForMyLiftTimeObjc;
+		};
+		E64DA02D1BE569BB002E8F05 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = E64DA0001BE569BB002E8F05 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = E64DA0071BE569BB002E8F05;
+			remoteInfo = TwiceForMyLiftTimeObjc;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		E64DA0081BE569BB002E8F05 /* TwiceForMyLiftTimeObjc.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TwiceForMyLiftTimeObjc.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		E64DA00C1BE569BB002E8F05 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		E64DA00E1BE569BB002E8F05 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		E64DA00F1BE569BB002E8F05 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		E64DA0111BE569BB002E8F05 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		E64DA0121BE569BB002E8F05 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		E64DA0151BE569BB002E8F05 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		E64DA0171BE569BB002E8F05 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		E64DA01A1BE569BB002E8F05 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		E64DA01C1BE569BB002E8F05 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E64DA0211BE569BB002E8F05 /* TwiceForMyLiftTimeObjcTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TwiceForMyLiftTimeObjcTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		E64DA0251BE569BB002E8F05 /* TwiceForMyLiftTimeObjcTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TwiceForMyLiftTimeObjcTests.m; sourceTree = "<group>"; };
+		E64DA0271BE569BB002E8F05 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E64DA02C1BE569BB002E8F05 /* TwiceForMyLiftTimeObjcUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TwiceForMyLiftTimeObjcUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		E64DA0301BE569BB002E8F05 /* TwiceForMyLiftTimeObjcUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TwiceForMyLiftTimeObjcUITests.m; sourceTree = "<group>"; };
+		E64DA0321BE569BB002E8F05 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		E64DA0051BE569BB002E8F05 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E64DA01E1BE569BB002E8F05 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E64DA0291BE569BB002E8F05 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		E64D9FFF1BE569BB002E8F05 = {
+			isa = PBXGroup;
+			children = (
+				E64DA00A1BE569BB002E8F05 /* TwiceForMyLiftTimeObjc */,
+				E64DA0241BE569BB002E8F05 /* TwiceForMyLiftTimeObjcTests */,
+				E64DA02F1BE569BB002E8F05 /* TwiceForMyLiftTimeObjcUITests */,
+				E64DA0091BE569BB002E8F05 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		E64DA0091BE569BB002E8F05 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				E64DA0081BE569BB002E8F05 /* TwiceForMyLiftTimeObjc.app */,
+				E64DA0211BE569BB002E8F05 /* TwiceForMyLiftTimeObjcTests.xctest */,
+				E64DA02C1BE569BB002E8F05 /* TwiceForMyLiftTimeObjcUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		E64DA00A1BE569BB002E8F05 /* TwiceForMyLiftTimeObjc */ = {
+			isa = PBXGroup;
+			children = (
+				E64DA00E1BE569BB002E8F05 /* AppDelegate.h */,
+				E64DA00F1BE569BB002E8F05 /* AppDelegate.m */,
+				E64DA0111BE569BB002E8F05 /* ViewController.h */,
+				E64DA0121BE569BB002E8F05 /* ViewController.m */,
+				E64DA0141BE569BB002E8F05 /* Main.storyboard */,
+				E64DA0171BE569BB002E8F05 /* Assets.xcassets */,
+				E64DA0191BE569BB002E8F05 /* LaunchScreen.storyboard */,
+				E64DA01C1BE569BB002E8F05 /* Info.plist */,
+				E64DA00B1BE569BB002E8F05 /* Supporting Files */,
+			);
+			path = TwiceForMyLiftTimeObjc;
+			sourceTree = "<group>";
+		};
+		E64DA00B1BE569BB002E8F05 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				E64DA00C1BE569BB002E8F05 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		E64DA0241BE569BB002E8F05 /* TwiceForMyLiftTimeObjcTests */ = {
+			isa = PBXGroup;
+			children = (
+				E64DA0251BE569BB002E8F05 /* TwiceForMyLiftTimeObjcTests.m */,
+				E64DA0271BE569BB002E8F05 /* Info.plist */,
+			);
+			path = TwiceForMyLiftTimeObjcTests;
+			sourceTree = "<group>";
+		};
+		E64DA02F1BE569BB002E8F05 /* TwiceForMyLiftTimeObjcUITests */ = {
+			isa = PBXGroup;
+			children = (
+				E64DA0301BE569BB002E8F05 /* TwiceForMyLiftTimeObjcUITests.m */,
+				E64DA0321BE569BB002E8F05 /* Info.plist */,
+			);
+			path = TwiceForMyLiftTimeObjcUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		E64DA0071BE569BB002E8F05 /* TwiceForMyLiftTimeObjc */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E64DA0351BE569BB002E8F05 /* Build configuration list for PBXNativeTarget "TwiceForMyLiftTimeObjc" */;
+			buildPhases = (
+				E64DA0041BE569BB002E8F05 /* Sources */,
+				E64DA0051BE569BB002E8F05 /* Frameworks */,
+				E64DA0061BE569BB002E8F05 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = TwiceForMyLiftTimeObjc;
+			productName = TwiceForMyLiftTimeObjc;
+			productReference = E64DA0081BE569BB002E8F05 /* TwiceForMyLiftTimeObjc.app */;
+			productType = "com.apple.product-type.application";
+		};
+		E64DA0201BE569BB002E8F05 /* TwiceForMyLiftTimeObjcTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E64DA0381BE569BB002E8F05 /* Build configuration list for PBXNativeTarget "TwiceForMyLiftTimeObjcTests" */;
+			buildPhases = (
+				E64DA01D1BE569BB002E8F05 /* Sources */,
+				E64DA01E1BE569BB002E8F05 /* Frameworks */,
+				E64DA01F1BE569BB002E8F05 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				E64DA0231BE569BB002E8F05 /* PBXTargetDependency */,
+			);
+			name = TwiceForMyLiftTimeObjcTests;
+			productName = TwiceForMyLiftTimeObjcTests;
+			productReference = E64DA0211BE569BB002E8F05 /* TwiceForMyLiftTimeObjcTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		E64DA02B1BE569BB002E8F05 /* TwiceForMyLiftTimeObjcUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E64DA03B1BE569BB002E8F05 /* Build configuration list for PBXNativeTarget "TwiceForMyLiftTimeObjcUITests" */;
+			buildPhases = (
+				E64DA0281BE569BB002E8F05 /* Sources */,
+				E64DA0291BE569BB002E8F05 /* Frameworks */,
+				E64DA02A1BE569BB002E8F05 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				E64DA02E1BE569BB002E8F05 /* PBXTargetDependency */,
+			);
+			name = TwiceForMyLiftTimeObjcUITests;
+			productName = TwiceForMyLiftTimeObjcUITests;
+			productReference = E64DA02C1BE569BB002E8F05 /* TwiceForMyLiftTimeObjcUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		E64DA0001BE569BB002E8F05 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0700;
+				ORGANIZATIONNAME = Planhola.com;
+				TargetAttributes = {
+					E64DA0071BE569BB002E8F05 = {
+						CreatedOnToolsVersion = 7.0.1;
+					};
+					E64DA0201BE569BB002E8F05 = {
+						CreatedOnToolsVersion = 7.0.1;
+						TestTargetID = E64DA0071BE569BB002E8F05;
+					};
+					E64DA02B1BE569BB002E8F05 = {
+						CreatedOnToolsVersion = 7.0.1;
+						TestTargetID = E64DA0071BE569BB002E8F05;
+					};
+				};
+			};
+			buildConfigurationList = E64DA0031BE569BB002E8F05 /* Build configuration list for PBXProject "TwiceForMyLiftTimeObjc" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = E64D9FFF1BE569BB002E8F05;
+			productRefGroup = E64DA0091BE569BB002E8F05 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				E64DA0071BE569BB002E8F05 /* TwiceForMyLiftTimeObjc */,
+				E64DA0201BE569BB002E8F05 /* TwiceForMyLiftTimeObjcTests */,
+				E64DA02B1BE569BB002E8F05 /* TwiceForMyLiftTimeObjcUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		E64DA0061BE569BB002E8F05 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E64DA01B1BE569BB002E8F05 /* LaunchScreen.storyboard in Resources */,
+				E64DA0181BE569BB002E8F05 /* Assets.xcassets in Resources */,
+				E64DA0161BE569BB002E8F05 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E64DA01F1BE569BB002E8F05 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E64DA02A1BE569BB002E8F05 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		E64DA0041BE569BB002E8F05 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E64DA0131BE569BB002E8F05 /* ViewController.m in Sources */,
+				E64DA0101BE569BB002E8F05 /* AppDelegate.m in Sources */,
+				E64DA00D1BE569BB002E8F05 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E64DA01D1BE569BB002E8F05 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E64DA0261BE569BB002E8F05 /* TwiceForMyLiftTimeObjcTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E64DA0281BE569BB002E8F05 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E64DA0311BE569BB002E8F05 /* TwiceForMyLiftTimeObjcUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		E64DA0231BE569BB002E8F05 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = E64DA0071BE569BB002E8F05 /* TwiceForMyLiftTimeObjc */;
+			targetProxy = E64DA0221BE569BB002E8F05 /* PBXContainerItemProxy */;
+		};
+		E64DA02E1BE569BB002E8F05 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = E64DA0071BE569BB002E8F05 /* TwiceForMyLiftTimeObjc */;
+			targetProxy = E64DA02D1BE569BB002E8F05 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		E64DA0141BE569BB002E8F05 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				E64DA0151BE569BB002E8F05 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		E64DA0191BE569BB002E8F05 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				E64DA01A1BE569BB002E8F05 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		E64DA0331BE569BB002E8F05 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		E64DA0341BE569BB002E8F05 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		E64DA0361BE569BB002E8F05 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = TwiceForMyLiftTimeObjc/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.planhola.TwiceForMyLiftTimeObjc;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		E64DA0371BE569BB002E8F05 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = TwiceForMyLiftTimeObjc/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.planhola.TwiceForMyLiftTimeObjc;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		E64DA0391BE569BB002E8F05 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = TwiceForMyLiftTimeObjcTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.planhola.TwiceForMyLiftTimeObjcTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/TwiceForMyLiftTimeObjc.app/TwiceForMyLiftTimeObjc";
+			};
+			name = Debug;
+		};
+		E64DA03A1BE569BB002E8F05 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = TwiceForMyLiftTimeObjcTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.planhola.TwiceForMyLiftTimeObjcTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/TwiceForMyLiftTimeObjc.app/TwiceForMyLiftTimeObjc";
+			};
+			name = Release;
+		};
+		E64DA03C1BE569BB002E8F05 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = TwiceForMyLiftTimeObjcUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.planhola.TwiceForMyLiftTimeObjcUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = TwiceForMyLiftTimeObjc;
+				USES_XCTRUNNER = YES;
+			};
+			name = Debug;
+		};
+		E64DA03D1BE569BB002E8F05 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = TwiceForMyLiftTimeObjcUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.planhola.TwiceForMyLiftTimeObjcUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = TwiceForMyLiftTimeObjc;
+				USES_XCTRUNNER = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		E64DA0031BE569BB002E8F05 /* Build configuration list for PBXProject "TwiceForMyLiftTimeObjc" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E64DA0331BE569BB002E8F05 /* Debug */,
+				E64DA0341BE569BB002E8F05 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E64DA0351BE569BB002E8F05 /* Build configuration list for PBXNativeTarget "TwiceForMyLiftTimeObjc" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E64DA0361BE569BB002E8F05 /* Debug */,
+				E64DA0371BE569BB002E8F05 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		E64DA0381BE569BB002E8F05 /* Build configuration list for PBXNativeTarget "TwiceForMyLiftTimeObjcTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E64DA0391BE569BB002E8F05 /* Debug */,
+				E64DA03A1BE569BB002E8F05 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		E64DA03B1BE569BB002E8F05 /* Build configuration list for PBXNativeTarget "TwiceForMyLiftTimeObjcUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E64DA03C1BE569BB002E8F05 /* Debug */,
+				E64DA03D1BE569BB002E8F05 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = E64DA0001BE569BB002E8F05 /* Project object */;
+}
