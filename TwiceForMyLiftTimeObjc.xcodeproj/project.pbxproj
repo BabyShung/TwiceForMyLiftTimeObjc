@@ -15,6 +15,9 @@
 		E64DA01B1BE569BB002E8F05 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E64DA0191BE569BB002E8F05 /* LaunchScreen.storyboard */; };
 		E64DA0261BE569BB002E8F05 /* TwiceForMyLiftTimeObjcTests.m in Sources */ = {isa = PBXBuildFile; fileRef = E64DA0251BE569BB002E8F05 /* TwiceForMyLiftTimeObjcTests.m */; };
 		E64DA0311BE569BB002E8F05 /* TwiceForMyLiftTimeObjcUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = E64DA0301BE569BB002E8F05 /* TwiceForMyLiftTimeObjcUITests.m */; };
+		E64DA0801BE70890002E8F05 /* Strstr.m in Sources */ = {isa = PBXBuildFile; fileRef = E64DA07F1BE70890002E8F05 /* Strstr.m */; settings = {ASSET_TAGS = (); }; };
+		E64DA0831BE709FF002E8F05 /* StrstrTests.m in Sources */ = {isa = PBXBuildFile; fileRef = E64DA0821BE709FF002E8F05 /* StrstrTests.m */; settings = {ASSET_TAGS = (); }; };
+		E64DA0861BE70A77002E8F05 /* StringHelper.m in Sources */ = {isa = PBXBuildFile; fileRef = E64DA0851BE70A77002E8F05 /* StringHelper.m */; settings = {ASSET_TAGS = (); }; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +54,11 @@
 		E64DA02C1BE569BB002E8F05 /* TwiceForMyLiftTimeObjcUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TwiceForMyLiftTimeObjcUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		E64DA0301BE569BB002E8F05 /* TwiceForMyLiftTimeObjcUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TwiceForMyLiftTimeObjcUITests.m; sourceTree = "<group>"; };
 		E64DA0321BE569BB002E8F05 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E64DA07E1BE70890002E8F05 /* Strstr.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = Strstr.h; path = Classes/Strstr.h; sourceTree = "<group>"; };
+		E64DA07F1BE70890002E8F05 /* Strstr.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = Strstr.m; path = Classes/Strstr.m; sourceTree = "<group>"; };
+		E64DA0821BE709FF002E8F05 /* StrstrTests.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = StrstrTests.m; sourceTree = "<group>"; };
+		E64DA0841BE70A77002E8F05 /* StringHelper.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = StringHelper.h; path = Helpers/StringHelper.h; sourceTree = "<group>"; };
+		E64DA0851BE70A77002E8F05 /* StringHelper.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = StringHelper.m; path = Helpers/StringHelper.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -101,14 +109,12 @@
 		E64DA00A1BE569BB002E8F05 /* TwiceForMyLiftTimeObjc */ = {
 			isa = PBXGroup;
 			children = (
+				E64DA07D1BE70856002E8F05 /* Classes */,
 				E64DA00E1BE569BB002E8F05 /* AppDelegate.h */,
 				E64DA00F1BE569BB002E8F05 /* AppDelegate.m */,
 				E64DA0111BE569BB002E8F05 /* ViewController.h */,
 				E64DA0121BE569BB002E8F05 /* ViewController.m */,
 				E64DA0141BE569BB002E8F05 /* Main.storyboard */,
-				E64DA0171BE569BB002E8F05 /* Assets.xcassets */,
-				E64DA0191BE569BB002E8F05 /* LaunchScreen.storyboard */,
-				E64DA01C1BE569BB002E8F05 /* Info.plist */,
 				E64DA00B1BE569BB002E8F05 /* Supporting Files */,
 			);
 			path = TwiceForMyLiftTimeObjc;
@@ -117,6 +123,9 @@
 		E64DA00B1BE569BB002E8F05 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				E64DA0171BE569BB002E8F05 /* Assets.xcassets */,
+				E64DA0191BE569BB002E8F05 /* LaunchScreen.storyboard */,
+				E64DA01C1BE569BB002E8F05 /* Info.plist */,
 				E64DA00C1BE569BB002E8F05 /* main.m */,
 			);
 			name = "Supporting Files";
@@ -125,8 +134,9 @@
 		E64DA0241BE569BB002E8F05 /* TwiceForMyLiftTimeObjcTests */ = {
 			isa = PBXGroup;
 			children = (
-				E64DA0251BE569BB002E8F05 /* TwiceForMyLiftTimeObjcTests.m */,
-				E64DA0271BE569BB002E8F05 /* Info.plist */,
+				E64DA0881BE70AA8002E8F05 /* Others */,
+				E64DA0871BE70A7B002E8F05 /* Helpers */,
+				E64DA0821BE709FF002E8F05 /* StrstrTests.m */,
 			);
 			path = TwiceForMyLiftTimeObjcTests;
 			sourceTree = "<group>";
@@ -138,6 +148,33 @@
 				E64DA0321BE569BB002E8F05 /* Info.plist */,
 			);
 			path = TwiceForMyLiftTimeObjcUITests;
+			sourceTree = "<group>";
+		};
+		E64DA07D1BE70856002E8F05 /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				E64DA07E1BE70890002E8F05 /* Strstr.h */,
+				E64DA07F1BE70890002E8F05 /* Strstr.m */,
+			);
+			name = Classes;
+			sourceTree = "<group>";
+		};
+		E64DA0871BE70A7B002E8F05 /* Helpers */ = {
+			isa = PBXGroup;
+			children = (
+				E64DA0841BE70A77002E8F05 /* StringHelper.h */,
+				E64DA0851BE70A77002E8F05 /* StringHelper.m */,
+			);
+			name = Helpers;
+			sourceTree = "<group>";
+		};
+		E64DA0881BE70AA8002E8F05 /* Others */ = {
+			isa = PBXGroup;
+			children = (
+				E64DA0271BE569BB002E8F05 /* Info.plist */,
+				E64DA0251BE569BB002E8F05 /* TwiceForMyLiftTimeObjcTests.m */,
+			);
+			name = Others;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -271,6 +308,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				E64DA0131BE569BB002E8F05 /* ViewController.m in Sources */,
+				E64DA0801BE70890002E8F05 /* Strstr.m in Sources */,
 				E64DA0101BE569BB002E8F05 /* AppDelegate.m in Sources */,
 				E64DA00D1BE569BB002E8F05 /* main.m in Sources */,
 			);
@@ -281,6 +319,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				E64DA0261BE569BB002E8F05 /* TwiceForMyLiftTimeObjcTests.m in Sources */,
+				E64DA0861BE70A77002E8F05 /* StringHelper.m in Sources */,
+				E64DA0831BE709FF002E8F05 /* StrstrTests.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -498,6 +538,7 @@
 				E64DA0371BE569BB002E8F05 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		E64DA0381BE569BB002E8F05 /* Build configuration list for PBXNativeTarget "TwiceForMyLiftTimeObjcTests" */ = {
 			isa = XCConfigurationList;
@@ -506,6 +547,7 @@
 				E64DA03A1BE569BB002E8F05 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		E64DA03B1BE569BB002E8F05 /* Build configuration list for PBXNativeTarget "TwiceForMyLiftTimeObjcUITests" */ = {
 			isa = XCConfigurationList;
@@ -514,6 +556,7 @@
 				E64DA03D1BE569BB002E8F05 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
