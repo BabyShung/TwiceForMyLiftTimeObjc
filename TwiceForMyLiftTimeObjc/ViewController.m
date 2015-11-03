@@ -8,6 +8,8 @@
 
 #import "ViewController.h"
 
+#import "Subsets.h"
+
 @interface ViewController ()
 
 @end
@@ -16,8 +18,11 @@
 
 - (void)viewDidLoad {
     [super viewDidLoad];
-    // Do any additional setup after loading the view, typically from a nib.
-    NSLog(@"gg");
+    
+    Subsets *subsets = [Subsets new];
+    NSArray *result = [subsets subsets_nums:@[@(1),@(2),@(3)]];
+    NSLog(@"subsets: %@",result);
+    
 }
 
 - (void)didReceiveMemoryWarning {
