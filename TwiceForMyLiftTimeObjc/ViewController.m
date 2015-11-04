@@ -9,6 +9,7 @@
 #import "ViewController.h"
 
 #import "Subsets.h"
+#import "Permutation.h"
 
 @interface ViewController ()
 
@@ -22,6 +23,10 @@
     Subsets *subsets = [Subsets new];
     NSArray *result = [subsets subsets_nums:@[@(1),@(2),@(3)]];
     NSLog(@"subsets: %@",result);
+    
+    Permutation *permutes = [Permutation new];
+    NSArray *resultPermute = [permutes permute_nums:@[@(1),@(2),@(3)]];
+    NSLog(@"Permutation: %@",resultPermute);
     
 }
 

@@ -19,6 +19,7 @@
 		E64DA0801BE70890002E8F05 /* Strstr.m in Sources */ = {isa = PBXBuildFile; fileRef = E64DA07F1BE70890002E8F05 /* Strstr.m */; settings = {ASSET_TAGS = (); }; };
 		E64DA0831BE709FF002E8F05 /* StrstrTests.m in Sources */ = {isa = PBXBuildFile; fileRef = E64DA0821BE709FF002E8F05 /* StrstrTests.m */; settings = {ASSET_TAGS = (); }; };
 		E64DA0861BE70A77002E8F05 /* StringHelper.m in Sources */ = {isa = PBXBuildFile; fileRef = E64DA0851BE70A77002E8F05 /* StringHelper.m */; settings = {ASSET_TAGS = (); }; };
+		E6B20FF81BE9BF4000B3A2E9 /* Permutation.m in Sources */ = {isa = PBXBuildFile; fileRef = E6B20FF71BE9BF4000B3A2E9 /* Permutation.m */; settings = {ASSET_TAGS = (); }; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -62,6 +63,8 @@
 		E64DA0821BE709FF002E8F05 /* StrstrTests.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = StrstrTests.m; sourceTree = "<group>"; };
 		E64DA0841BE70A77002E8F05 /* StringHelper.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = StringHelper.h; path = Helpers/StringHelper.h; sourceTree = "<group>"; };
 		E64DA0851BE70A77002E8F05 /* StringHelper.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = StringHelper.m; path = Helpers/StringHelper.m; sourceTree = "<group>"; };
+		E6B20FF61BE9BF4000B3A2E9 /* Permutation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = Permutation.h; path = Classes/Permutation.h; sourceTree = "<group>"; };
+		E6B20FF71BE9BF4000B3A2E9 /* Permutation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = Permutation.m; path = Classes/Permutation.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -160,6 +163,8 @@
 				E64DA07F1BE70890002E8F05 /* Strstr.m */,
 				E61412191BE871190054809E /* Subsets.h */,
 				E614121A1BE871190054809E /* Subsets.m */,
+				E6B20FF61BE9BF4000B3A2E9 /* Permutation.h */,
+				E6B20FF71BE9BF4000B3A2E9 /* Permutation.m */,
 			);
 			name = Classes;
 			sourceTree = "<group>";
@@ -314,6 +319,7 @@
 			files = (
 				E64DA0131BE569BB002E8F05 /* ViewController.m in Sources */,
 				E64DA0801BE70890002E8F05 /* Strstr.m in Sources */,
+				E6B20FF81BE9BF4000B3A2E9 /* Permutation.m in Sources */,
 				E64DA0101BE569BB002E8F05 /* AppDelegate.m in Sources */,
 				E64DA00D1BE569BB002E8F05 /* main.m in Sources */,
 				E614121B1BE871190054809E /* Subsets.m in Sources */,
