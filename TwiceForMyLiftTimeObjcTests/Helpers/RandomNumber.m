@@ -25,4 +25,15 @@
     return (NSInteger)from + arc4random() % (to - from + 1);
 }
 
++ (NSArray *)getRandomAscendingArray_count:(NSInteger)count
+{
+    NSMutableArray *array = [NSMutableArray array];
+    NSInteger firstNumber = [RandomNumber getRandomNumber_upperBound:40];
+    for (NSInteger i = 0; i < count; i++) {
+        [array addObject:@(firstNumber)];
+        firstNumber += [RandomNumber getRandomNumber_upperBound:20];
+    }
+    return array;
+}
+
 @end

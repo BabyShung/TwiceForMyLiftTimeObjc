@@ -13,6 +13,5 @@
 + (NSString *)randomString;
 + (NSString *)randomString_fixedLength;
 + (NSString *)randomString_Length:(NSInteger)len;
-+ (NSInteger)randomNumberWithUpperBound:(NSInteger)upperBound;
 
 @end

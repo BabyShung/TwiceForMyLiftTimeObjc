@@ -31,21 +31,10 @@
 
 - (void)testNormal
 {
-    NSArray *randomArray = [self getRandomAscendingArray_count:[RandomNumber getRandomNumberBetween:1 to:30]];
+    NSArray *randomArray = [RandomNumber getRandomAscendingArray_count:[RandomNumber getRandomNumberBetween:1 to:30]];
     NSInteger randomIndex = [RandomNumber getRandomNumber_upperBound:randomArray.count];
     NSInteger randomTarget = [randomArray[randomIndex] integerValue];
     [self bsHelper_nums:randomArray target:randomTarget];
-}
-
-- (NSArray *)getRandomAscendingArray_count:(NSInteger)count
-{
-    NSMutableArray *array = [NSMutableArray array];
-    NSInteger firstNumber = [RandomNumber getRandomNumber_upperBound:40];
-    for (NSInteger i = 0; i < count; i++) {
-        [array addObject:@(firstNumber)];
-        firstNumber += [RandomNumber getRandomNumber_upperBound:20];
-    }
-    return array;
 }
 
 - (NSInteger)bsHelper_nums:(NSArray *)nums target:(NSInteger)target

@@ -7,12 +7,13 @@
 //
 
 #import "StringHelper.h"
+#import "RandomNumber.h"
 
 @implementation StringHelper
 
 + (NSString *)randomString
 {
-    return [self randomString_Length:[self randomNumberWithUpperBound:30]];
+    return [self randomString_Length:[RandomNumber getRandomNumber_upperBound:30]];
 }
 
 + (NSString *)randomString_fixedLength
@@ -28,11 +29,6 @@
         [randomString appendFormat:@"%C",[letters characterAtIndex: arc4random_uniform((int)[letters length])]];
     }
     return randomString;
-}
-
-+ (NSInteger)randomNumberWithUpperBound:(NSInteger)upperBound
-{
-    return arc4random_uniform((int)upperBound);
 }
 
 @end

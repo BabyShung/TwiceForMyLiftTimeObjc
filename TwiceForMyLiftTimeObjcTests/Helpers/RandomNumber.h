@@ -14,4 +14,6 @@
 + (NSInteger)getRandomNumber_upperBound:(NSInteger)upperBound;
 + (NSInteger)getRandomNumberBetween:(NSInteger)from to:(NSInteger)to;
 
+//Array
++ (NSArray *)getRandomAscendingArray_count:(NSInteger)count;
 @end
