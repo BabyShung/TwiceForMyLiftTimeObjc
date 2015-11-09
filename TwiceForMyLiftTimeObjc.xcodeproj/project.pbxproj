@@ -7,7 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		E614121B1BE871190054809E /* Subsets.m in Sources */ = {isa = PBXBuildFile; fileRef = E614121A1BE871190054809E /* Subsets.m */; settings = {ASSET_TAGS = (); }; };
+		E614121B1BE871190054809E /* Subsets.m in Sources */ = {isa = PBXBuildFile; fileRef = E614121A1BE871190054809E /* Subsets.m */; };
 		E64DA00D1BE569BB002E8F05 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = E64DA00C1BE569BB002E8F05 /* main.m */; };
 		E64DA0101BE569BB002E8F05 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = E64DA00F1BE569BB002E8F05 /* AppDelegate.m */; };
 		E64DA0131BE569BB002E8F05 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E64DA0121BE569BB002E8F05 /* ViewController.m */; };
@@ -16,10 +16,13 @@
 		E64DA01B1BE569BB002E8F05 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E64DA0191BE569BB002E8F05 /* LaunchScreen.storyboard */; };
 		E64DA0261BE569BB002E8F05 /* TwiceForMyLiftTimeObjcTests.m in Sources */ = {isa = PBXBuildFile; fileRef = E64DA0251BE569BB002E8F05 /* TwiceForMyLiftTimeObjcTests.m */; };
 		E64DA0311BE569BB002E8F05 /* TwiceForMyLiftTimeObjcUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = E64DA0301BE569BB002E8F05 /* TwiceForMyLiftTimeObjcUITests.m */; };
-		E64DA0801BE70890002E8F05 /* Strstr.m in Sources */ = {isa = PBXBuildFile; fileRef = E64DA07F1BE70890002E8F05 /* Strstr.m */; settings = {ASSET_TAGS = (); }; };
-		E64DA0831BE709FF002E8F05 /* StrstrTests.m in Sources */ = {isa = PBXBuildFile; fileRef = E64DA0821BE709FF002E8F05 /* StrstrTests.m */; settings = {ASSET_TAGS = (); }; };
-		E64DA0861BE70A77002E8F05 /* StringHelper.m in Sources */ = {isa = PBXBuildFile; fileRef = E64DA0851BE70A77002E8F05 /* StringHelper.m */; settings = {ASSET_TAGS = (); }; };
-		E6B20FF81BE9BF4000B3A2E9 /* Permutation.m in Sources */ = {isa = PBXBuildFile; fileRef = E6B20FF71BE9BF4000B3A2E9 /* Permutation.m */; settings = {ASSET_TAGS = (); }; };
+		E64DA0801BE70890002E8F05 /* Strstr.m in Sources */ = {isa = PBXBuildFile; fileRef = E64DA07F1BE70890002E8F05 /* Strstr.m */; };
+		E64DA0831BE709FF002E8F05 /* StrstrTests.m in Sources */ = {isa = PBXBuildFile; fileRef = E64DA0821BE709FF002E8F05 /* StrstrTests.m */; };
+		E64DA0861BE70A77002E8F05 /* StringHelper.m in Sources */ = {isa = PBXBuildFile; fileRef = E64DA0851BE70A77002E8F05 /* StringHelper.m */; };
+		E6B20FF81BE9BF4000B3A2E9 /* Permutation.m in Sources */ = {isa = PBXBuildFile; fileRef = E6B20FF71BE9BF4000B3A2E9 /* Permutation.m */; };
+		E6CD51EB1BF0497A00D4661E /* BinarySearch.m in Sources */ = {isa = PBXBuildFile; fileRef = E6CD51EA1BF0497A00D4661E /* BinarySearch.m */; };
+		E6CD51ED1BF04B2C00D4661E /* BinarySearchTests.m in Sources */ = {isa = PBXBuildFile; fileRef = E6CD51EC1BF04B2C00D4661E /* BinarySearchTests.m */; };
+		E6CD51F01BF04D5900D4661E /* RandomNumber.m in Sources */ = {isa = PBXBuildFile; fileRef = E6CD51EF1BF04D5900D4661E /* RandomNumber.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -65,6 +68,11 @@
 		E64DA0851BE70A77002E8F05 /* StringHelper.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = StringHelper.m; path = Helpers/StringHelper.m; sourceTree = "<group>"; };
 		E6B20FF61BE9BF4000B3A2E9 /* Permutation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = Permutation.h; path = Classes/Permutation.h; sourceTree = "<group>"; };
 		E6B20FF71BE9BF4000B3A2E9 /* Permutation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = Permutation.m; path = Classes/Permutation.m; sourceTree = "<group>"; };
+		E6CD51E91BF0497A00D4661E /* BinarySearch.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = BinarySearch.h; path = Classes/BinarySearch.h; sourceTree = "<group>"; };
+		E6CD51EA1BF0497A00D4661E /* BinarySearch.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = BinarySearch.m; path = Classes/BinarySearch.m; sourceTree = "<group>"; };
+		E6CD51EC1BF04B2C00D4661E /* BinarySearchTests.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BinarySearchTests.m; sourceTree = "<group>"; };
+		E6CD51EE1BF04D5900D4661E /* RandomNumber.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = RandomNumber.h; path = Helpers/RandomNumber.h; sourceTree = "<group>"; };
+		E6CD51EF1BF04D5900D4661E /* RandomNumber.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = RandomNumber.m; path = Helpers/RandomNumber.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -143,6 +151,7 @@
 				E64DA0881BE70AA8002E8F05 /* Others */,
 				E64DA0871BE70A7B002E8F05 /* Helpers */,
 				E64DA0821BE709FF002E8F05 /* StrstrTests.m */,
+				E6CD51EC1BF04B2C00D4661E /* BinarySearchTests.m */,
 			);
 			path = TwiceForMyLiftTimeObjcTests;
 			sourceTree = "<group>";
@@ -165,6 +174,8 @@
 				E614121A1BE871190054809E /* Subsets.m */,
 				E6B20FF61BE9BF4000B3A2E9 /* Permutation.h */,
 				E6B20FF71BE9BF4000B3A2E9 /* Permutation.m */,
+				E6CD51E91BF0497A00D4661E /* BinarySearch.h */,
+				E6CD51EA1BF0497A00D4661E /* BinarySearch.m */,
 			);
 			name = Classes;
 			sourceTree = "<group>";
@@ -174,6 +185,8 @@
 			children = (
 				E64DA0841BE70A77002E8F05 /* StringHelper.h */,
 				E64DA0851BE70A77002E8F05 /* StringHelper.m */,
+				E6CD51EE1BF04D5900D4661E /* RandomNumber.h */,
+				E6CD51EF1BF04D5900D4661E /* RandomNumber.m */,
 			);
 			name = Helpers;
 			sourceTree = "<group>";
@@ -318,6 +331,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				E64DA0131BE569BB002E8F05 /* ViewController.m in Sources */,
+				E6CD51EB1BF0497A00D4661E /* BinarySearch.m in Sources */,
 				E64DA0801BE70890002E8F05 /* Strstr.m in Sources */,
 				E6B20FF81BE9BF4000B3A2E9 /* Permutation.m in Sources */,
 				E64DA0101BE569BB002E8F05 /* AppDelegate.m in Sources */,
@@ -330,9 +344,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E6CD51ED1BF04B2C00D4661E /* BinarySearchTests.m in Sources */,
 				E64DA0261BE569BB002E8F05 /* TwiceForMyLiftTimeObjcTests.m in Sources */,
 				E64DA0861BE70A77002E8F05 /* StringHelper.m in Sources */,
 				E64DA0831BE709FF002E8F05 /* StrstrTests.m in Sources */,
+				E6CD51F01BF04D5900D4661E /* RandomNumber.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
