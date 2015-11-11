@@ -23,6 +23,7 @@
 		E6CD51EB1BF0497A00D4661E /* BinarySearch.m in Sources */ = {isa = PBXBuildFile; fileRef = E6CD51EA1BF0497A00D4661E /* BinarySearch.m */; };
 		E6CD51ED1BF04B2C00D4661E /* BinarySearchTests.m in Sources */ = {isa = PBXBuildFile; fileRef = E6CD51EC1BF04B2C00D4661E /* BinarySearchTests.m */; };
 		E6CD51F01BF04D5900D4661E /* RandomNumber.m in Sources */ = {isa = PBXBuildFile; fileRef = E6CD51EF1BF04D5900D4661E /* RandomNumber.m */; };
+		E6CD520A1BF3028800D4661E /* SearchInsertPosition.m in Sources */ = {isa = PBXBuildFile; fileRef = E6CD52091BF3028800D4661E /* SearchInsertPosition.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -73,6 +74,8 @@
 		E6CD51EC1BF04B2C00D4661E /* BinarySearchTests.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BinarySearchTests.m; sourceTree = "<group>"; };
 		E6CD51EE1BF04D5900D4661E /* RandomNumber.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = RandomNumber.h; path = Helpers/RandomNumber.h; sourceTree = "<group>"; };
 		E6CD51EF1BF04D5900D4661E /* RandomNumber.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = RandomNumber.m; path = Helpers/RandomNumber.m; sourceTree = "<group>"; };
+		E6CD52081BF3028800D4661E /* SearchInsertPosition.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = SearchInsertPosition.h; path = Classes/SearchInsertPosition.h; sourceTree = "<group>"; };
+		E6CD52091BF3028800D4661E /* SearchInsertPosition.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = SearchInsertPosition.m; path = Classes/SearchInsertPosition.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -176,6 +179,8 @@
 				E6B20FF71BE9BF4000B3A2E9 /* Permutation.m */,
 				E6CD51E91BF0497A00D4661E /* BinarySearch.h */,
 				E6CD51EA1BF0497A00D4661E /* BinarySearch.m */,
+				E6CD52081BF3028800D4661E /* SearchInsertPosition.h */,
+				E6CD52091BF3028800D4661E /* SearchInsertPosition.m */,
 			);
 			name = Classes;
 			sourceTree = "<group>";
@@ -331,6 +336,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				E64DA0131BE569BB002E8F05 /* ViewController.m in Sources */,
+				E6CD520A1BF3028800D4661E /* SearchInsertPosition.m in Sources */,
 				E6CD51EB1BF0497A00D4661E /* BinarySearch.m in Sources */,
 				E64DA0801BE70890002E8F05 /* Strstr.m in Sources */,
 				E6B20FF81BE9BF4000B3A2E9 /* Permutation.m in Sources */,
